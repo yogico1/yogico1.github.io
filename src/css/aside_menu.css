@@ -1,0 +1,248 @@
+
+.gnb_black{
+position: fixed;
+z-index: 3;
+left: 0;
+top: 0;
+width: 100%;
+height: 100vw;
+background: #000;
+opacity: 0.5;display:none;
+}
+
+.aside_menu{
+  overflow: hidden; 
+  overflow-y: auto;
+  position: fixed;
+  top:0;
+  left:8%;
+  cursor:default;
+  width: 390px;
+  height: 100%; 
+  padding-top: 40px;
+  text-align: left; 
+  box-sizing: border-box;
+  background:#fff;
+  z-index:26;
+  color:#979797;
+  transform: translateX(-138%);
+  transition-duration: .5s;
+}
+.aside_inner{
+width:90%;
+margin:0 auto;
+}
+.nation_icon{
+width:100%;
+position:relative;
+display:inline-block;
+}
+.nation_icon ul li{
+float:left;
+margin-left:15px;
+}
+.nation_icon ul li:nth-child(1){
+margin:0;
+}
+.nation_active{
+color:#111
+}
+.aside_gnb{
+width:90%;
+margin:0 auto;
+margin-top:100px;
+}
+
+.yogico_txt{
+position:relative;
+display:inline-block;
+width:100%;
+}
+.yogico_txt dt{
+color:#111;
+font-size:20px;
+}
+.yogico_txt dd ul{
+margin-top:5px;
+}
+.yogico_txt dd ul li{
+float:left;
+margin-left:15px;
+line-height:2;
+}
+.yogico_txt dd ul li:nth-child(1){
+margin:0;
+}
+
+.brand_txt{
+  position:relative;
+  display:inline-block;
+  width:100%;
+  margin-top:30px;
+}
+.brand_txt dt{
+  color:#111;
+  font-size:20px;
+}
+.brand_txt dd ul{
+  margin-top:5px;
+  width:100%;
+}
+.brand_txt dd ul li{
+  float:left;
+  width:49%;
+  text-align:left;
+  line-height:2;
+  cursor:pointer;
+}
+.brand_txt dd ul li:nth-child(1){margin:0;}
+.news_txt{
+  position:relative;
+  display:inline-block;
+  width:100%;
+  margin-top:30px;
+}
+.news_txt dt{
+  color:#111;
+  font-size:20px;
+}
+
+.contact_txt{
+  position:relative;
+  display:inline-block;
+  width:100%;
+  margin-top:30px;
+}
+.contact_txt dt{
+  color:#111;
+  font-size:20px;
+}
+.contact_txt dd ul{
+  margin-top:5px;
+}
+.contact_txt dd ul li{
+  float:left;
+  margin-left:15px;
+  line-height:2;
+}
+.contact_txt dd ul li:nth-child(1){
+  margin:0;
+}
+
+.miri{ 
+  transform: translateX(0%);
+  transition-duration: .5s;
+}
+.miri_dim{
+  opacity:0.6;
+  display:inline;
+}
+
+
+/*inint 메뉴바 CSS부분*/
+.init {
+animation:none !important;
+}
+
+.line {
+  background:#111;
+  margin-top:5px;
+  margin-bottom:5px;
+  width:25px;
+  height:3px; 
+  border-radius:2px;
+
+  position:relative;
+}
+
+  .line-top {
+    animation:line-top .3s forwards ease-out,
+    line-top-rotate .1s .3s forwards ease-out;
+  }
+  
+  /* 추가된 부분 */
+  .top-reverse {
+    animation:line-top-rotate-reverse .1s forwards ease-out,
+     line-top-reverse .3s .1s forwards ease-out;
+  }
+  
+  .line-mid {
+    animation:line-mid .3s forwards ease-out;
+  }
+  
+  /* 추가된 부분 */
+  .mid-reverse {
+    animation:line-mid-invisible .1s forwards ease-out, 
+    line-mid-reverse .3s .1s forwards ease-out;
+  }
+  
+  .line-bot {
+    animation:line-bot .3s forwards ease-out,
+    line-bot-rotate .1s .3s forwards ease-out;
+  }
+  
+  /* 추가된 부분 */
+  .bot-reverse {
+    animation:line-bot-rotate-reverse .1s forwards ease-out,
+   line-bot-reverse .3s .1s forwards ease-out;
+  }
+  
+  @keyframes line-top {
+    0% {transform:translateY(0px)}
+    100% {transform:translateY(4px)}
+  }
+  
+  /* 추가된 부분 */
+  @keyframes line-top-reverse {
+    0% {transform:translateY(4px)}
+    100% {transform:translateY(0px)}
+  }
+  
+  @keyframes line-top-rotate {
+    0% {transform:translateY(0px) rotateZ(0deg)}
+    100% {transform:translateY(4px) rotateZ(50deg)}
+  }
+  
+  /* 추가된 부분 */
+  @keyframes line-top-rotate-reverse {
+    0% {transform:translateY(4px) rotateZ(50deg)}
+    100% {transform:translateY(4px) rotateZ(0deg)}
+  }
+  
+  @keyframes line-mid {
+    0% {transform:scale(1)}
+    100% {transform:scale(0)}
+  }
+  
+  /* 추가된 부분 */
+  @keyframes line-mid-reverse {
+    0% {transform:scale(0)}
+    100% {transform:scale(1)}
+  }
+  
+  @keyframes line-mid-invisible {
+    0% {transform:scale(0)}
+    100% {transform:scale(0)}
+  }
+  
+  @keyframes line-bot {
+    0% {transform:translateY(0px)}
+    100% {transform:translateY(-13px)}
+  }
+  
+  /* 추가된 부분 */
+  @keyframes line-bot-reverse {
+    0% {transform:translateY(-13px)}
+    100% {transform:translateY(0px)}
+  }
+  
+  @keyframes line-bot-rotate {
+    0% {transform:translateY(-12px) rotateZ(0deg)}
+    100% {transform:translateY(-12px) rotateZ(133deg)}
+  }
+  
+  /* 추가된 부분 */
+  @keyframes line-bot-rotate-reverse {
+    0% {transform:translateY(-12px) rotateZ(133deg)}
+    100% {transform:translateY(-12px) rotateZ(0deg)}
+  }
