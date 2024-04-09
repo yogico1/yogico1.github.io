@@ -1,0 +1,307 @@
+
+a:hover{color:#00bdd4!important;text-decoration: none!important;}
+#yogi_corporation{overflow:hidden;}
+.p_l_d_b2{padding-top:200px!important;margin-top:-5px!important}
+.section_01_inner{padding-top:200px;}
+.img_section{padding-top:200px;}
+.section_01_wrapper{
+   display:inline-block;
+   width:100%;
+}
+.section_01_inner{
+    width:85%;
+    margin:0 auto;
+}
+.img_section{
+    position:relative;
+    display:inline-block;
+    width:100%;
+}
+
+/*텍스트 section*/
+.text_info{
+    width:60%;
+    margin:0 auto;
+}
+
+.text_info_left{
+    float:left;
+    width:50%;
+} 
+
+.text_info_left .text_01{
+    font-weight:400;
+    font-size:25px;
+}
+.text_info_left .text_02 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.text_info_left .text_03 {
+    font-size: 17px;
+    line-height: 1.7;
+    word-break: keep-all;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.text_info_left .text_03 li{
+    font-weight:500;
+}
+
+.text_04 {
+    font-size: 17px;
+    line-height: 1.7;
+    word-break: keep-all;
+    width: 100%;
+    padding-bottom: 40px;
+}
+.text_04 dt{
+    font-weight:700;
+    font-size:20px;
+}
+.text_04 dd{
+    font-weight:500;
+} 
+.text_info_right{
+    float:left;
+    width:50%;
+    margin-top: 250px;
+    }
+.circle img{width:100%;}
+.circle ul{
+    width:566px;
+    position:relative;
+    display:inline-block;    
+}
+.circle ul li{
+    float:left;
+    width:24%;
+    margin-left:-30px;
+}
+.circle ul li:nth-child(1){margin:0;}
+.btn-go { 
+    position: relative;
+    display: inline-block;
+    border-bottom:1px solid #000;
+    cursor:pointer;
+    background: url('https://yogibo.kr/yogico/img/icon/search_icon.png') right bottom no-repeat;
+    display: inline-block;
+    font-size: 15px;color: #111 !important;
+    padding-bottom:14px;
+    padding-right: 60px;
+    font-weight: 500;margin-top:40px;
+}
+
+
+.img_section_02{
+    position:relative;
+    display:inline-block;
+}
+/*중간 이미지*/
+.img_section ul li{
+    width:48%;
+    float:left;
+}
+.img_section ul li:nth-child(2){
+    float:right;
+    margin-top:50px;
+}
+
+.img_section_02 ul{
+    margin-top:100px
+}
+
+.img_section_02 ul li{
+    width:48%;
+    float:left;
+}
+.img_section_02 ul li:nth-child(1){
+    margin-top:160px;
+}
+.img_section_02 ul li:nth-child(2){
+    float:right;
+}
+
+/*making Lifestyle better line*/
+
+.make_info{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+   
+.make_left{
+    float:left;
+    width:48%;
+}
+.make_left dt{
+    text-align:left;
+    float:right;
+    padding-bottom:50px;
+
+    width:59%;
+}
+
+.make_left ul li:nth-child(1){
+    float:right;
+    width:60%;
+    padding-bottom:50px;
+}
+.make_left ul li:nth-child(2){
+    margin-top:70px;
+}
+.make_right{
+    position:absolute;
+    bottom:0;
+    right:0;
+    width:48%;
+}
+/*라인바*/
+.section_bar_wrapper{
+width:100%;
+height:192px;
+line-height:192px;
+position:relative;
+display:inline-block;
+margin-top:70px;
+background-color:#efefef;
+}
+.section_bar_inner{
+    width:100%;
+    text-align:center;
+    margin:0 auto;
+    font-size:22px;
+    font-weight:500;
+}
+.section_bar_inner ul{width:100%;margin:0 auto;}
+.section_bar_inner ul li{float:left;}
+.section_bar_inner img{width:140px;}
+
+
+
+@media screen and (max-width:1600px) and (min-width: 1400px) {
+    .text_info{width:75%;}
+    /*심볼*/
+    .section_life_style_right{
+        padding-top:120px;
+        padding-bottom:120px; 
+    }
+    /*making_life*/
+    /*게시판*/
+    .boarder_wrapper{width:89%}
+}
+
+@media screen and (max-width:1400px) and (min-width: 1200px) {
+    .section_01_inner{width:90%}
+    .text_info,.seciton_lifestyle{width:85%;}
+    /*게시판 부분*/
+    .boarder_wrapper{width:93%!important}
+}
+
+
+@media screen and (max-width:1200px) and (min-width: 1000px) {
+/*전체 부분 overflow*/
+
+.p_l_d_b2{padding-top:100px!important;margin-top:-5px!important}
+.section_01_inner{width:90%;padding-top:100px;}
+/*와우/열정/변화*/
+.text_info{width:85%;}
+.text_info_left .text_02{font-size:35px;}
+/*컬러이미지*/
+.img_section_02 ul li:nth-child(1) {margin-top: 100px;}
+/*그래프*/
+.circle ul{width:470px;}
+}
+
+@media screen and (max-width:1000px) and (min-width: 900px) {
+    .p_l_d_b2{padding-top:100px!important;margin-top:-5px!important}
+    .section_01_inner{width:95%;padding-top:100px;}
+    /*와우/열정/변화*/
+    .text_info{width:90%;}
+    .text_info_left .text_02{font-size:35px;}
+    /*컬러이미지*/
+    .img_section_02 ul li:nth-child(1) {margin-top: 100px;}
+    /*그래프*/
+    .circle ul{width:470px;}
+    /*게시판*/
+    .board_list{padding:10px!important;}
+
+}
+
+
+@media screen and (max-width:900px) and (min-width:500px) {
+#vid{margin-top:60px;}
+.p_l_d_b2{padding-top:80px!important;margin-top:-5px!important}
+.section_01_inner{width:100%;padding-top:80px;}
+.text_info_left{width:90%;margin:0 auto;float:none;}
+    /*그래프*/
+.text_info_right{width:90%;margin:0 auto;float:none;}
+    .circle ul{width:100%;}
+    .circle ul li{width:22%;}
+/*이미지 section*/
+.img_section{padding-top:0px;}
+.img_section ul li{width:100%}
+.img_section_02 ul li{width:100%;}
+.img_section_02 ul li:nth-child(1){margin-top:0;}
+.img_section_02 ul{margin-top:50px;}
+.img_section_top{margin-top:50px;}
+/*making life*/
+.make_left{width:100%;}
+.make_left dt{width:90%;float:none;margin:0 auto;font-size:25px;line-height:1.5;}
+.make_left ul li:nth-child(1){width:90%;float:none;margin:0 auto;}
+.make_left dd ul li:nth-child(2){display:none;}
+.make_img img{display:none;}
+.make_right{position:relative;width:100%;margin-top:50px;float:none;}
+.make_right_hide img{display:inline!important;margin-top:20px;}
+/*게시판*/
+.boarder_wrapper{width:95%!important;}
+.board_list {padding:10px!important;margin-top:20px;}
+/*배너 두개*/
+
+/*롤링 배너*/
+#office_wrapper{padding-left:5%!important;}
+}
+
+@media screen and (max-width:600px) and (min-width:200px) {
+.article_menu{display:none;}
+}
+@media screen and (max-width:500px) and (min-width:200px) {
+    #vid{margin-top:60px;}
+    .p_l_d_b2{padding-top:25px!important;margin-top:-5px!important}
+    .section_01_inner{width:100%;padding-top:25px;}
+    .text_info_left{width:95%;margin:0 auto;float:none;}
+    .text_info_left .text_01{font-size:20px}
+    .text_info_left .text_02{font-size:25px;margin-bottom:10px!important;}
+        /*그래프*/
+    .text_info_right{width:98%;margin:0 auto;float:none;}
+        .circle ul{width:100%;}
+        .circle ul li{width:23%;}
+        .circle ul li{margin-left:-19px}
+    /*이미지 section*/
+    .img_section{padding-top:0px;}
+    .img_section ul li{width:100%}
+    .img_section_02 ul li{width:100%;}
+    .img_section_02 ul li:nth-child(1){margin-top:0;}
+    .img_section ul li:nth-child(2){margin-top:25px;}
+    .img_section_02 ul{margin-top:25px;}
+    .img_section_top{margin-top:25px;}
+    /*making life*/
+    .make_left dt{font-size:15px;}
+    .make_left{width:100%;}
+    .make_left dt{width:95%;float:none;margin:0 auto;font-size:15px;line-height:1.7;font-weight:400!important;}
+    .make_left ul li:nth-child(1){width:90%;float:none;margin:0 auto;}
+    .make_left dd ul li:nth-child(2){display:none;}
+    .make_img img{display:none;}
+    .make_right{position:relative;width:100%;margin-top:25px;float:none;}
+    .make_right_hide img{display:inline!important;margin-top:20px;}
+    /*게시판*/
+    .boarder_wrapper{width:95%!important;}
+    .board_list {padding:10px!important;margin-top:20px;}
+    /*배너 두개*/
+
+    /*롤링 배너*/
+    #office_wrapper{padding-left:5%!important;}
+    }
+  

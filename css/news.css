@@ -1,0 +1,42 @@
+.fixed_line{height:100%!important;}
+#news_wrapper .news_title{
+    display: inline-block!important;
+    width: 100%;
+    float: right;
+    font-size: 2px;
+    padding-bottom: 80px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+
+@media screen and (max-width:900px) and (min-width:200px) {
+    #news_wrapper .news_title{
+        padding-bottom:10px;
+        margin-top:80px;
+    }
+}
+
+.mgt_20{margin-top:20px;}
+
+/*뉴스 타이틀*/
+.news_title{width:100%;;text-align:center;padding-bottom:60px;font-size:35px;font-weight:600;}
+#news_wrapper .news_title_more{display:none}
+.news_title_more {
+    float: right;
+    width: 98%;
+    text-align: right;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 20px;
+    position: absolute;
+    top: 28px;
+    cursor:pointer;
+}
+@media screen and (max-width:900px) and (min-width:200px) {
+    .news_title_more {
+        top:40px;
+    }
+    .news_title{font-size:25px!important;padding-top:30px;padding-bottom:0;}
+}
