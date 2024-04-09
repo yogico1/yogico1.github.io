@@ -1,0 +1,272 @@
+#service_wrapper img{
+    width:100%;
+}
+#service_wrapper{
+    /*max-width:1050px;*/
+    width:60%;
+    margin:0 auto;
+}
+.service_inner{
+    width:100%;
+    height:100%;
+    margin:0 auto;
+}
+
+.service_main_wrapper{
+    font-size:30px;font-weight:600;
+}
+
+.service_txt{
+    margin-top:40px;
+    line-height:1.8;
+}
+
+.graph{margin-top:80px;
+position:relative;
+display:inline-block;
+width:100%;
+}
+
+.graph_name{
+    font-weight:600;
+    font-size:30px;
+}
+#myChart{
+    cursor:pointer;
+}
+/* CSS */
+.chart-container canvas {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+#grapy_warpp div{width:45%;float:left;}
+.contentText{float:right;display:inline}
+
+
+.chart-title{
+    font-size:20px;
+    font-weight:600;
+    width:100%;
+    padding-bottom:10px;
+    display:inline-block;
+    text-align:center;
+}
+.section_greep{
+    background:#ddd;
+}
+
+.chart-content{
+    margin-top:10px;
+    font-size:14px;
+    font-weight:500;
+}
+
+.chart-container{
+    width:48%;float:left;
+}
+.chart-container:nth-child(2){
+    margin-left:2%;
+}
+
+.hito{
+    display:inline-block;
+    width:100%;
+    margin-top:80px;
+    float:left;
+}
+
+.grapy_s{
+    width:55%;float:left;
+}
+.chart-content2 {
+    margin-top:150px;
+    text-align: left; 
+    align-items: center;
+    width:40%;
+    float:left;
+    padding-left:20px;
+    font-weight:500;
+}
+
+#videArea{
+    margin-top:80px;
+}
+#videArea ul{
+    position:relative;
+    display:inline-block;
+    width:100%;
+}
+#videArea ul li{
+    margin-top:4%;
+    width:48%;
+    float:left;
+    height:300px;
+    background:#333;
+    border:1px solid #333;
+}
+
+#videArea ul li:nth-child(2){
+    margin-left:2%;
+}
+
+.text-content{
+    width:100%;
+    margin-top:2%;
+    text-align:center;
+    font-weight:500;
+}
+
+
+#biz{
+    width:100%;
+    position:relative;
+    display:inline-block;
+    margin-top:80px;
+}
+
+.biz_ul ul{width:85%;margin:0 auto;text-align:center;
+margin-top:30px;
+}
+.biz_ul ul li{
+    float:left;
+    height:30px;
+    font-weight:500;
+    font-size:18px;
+    text-align:center;
+    margin-left:8px;
+}
+.biz_ul ul li:nth-child(1){margin-left:0;}
+
+#biz_info{
+    width:100%;
+    position:relative;
+    display:inline-block;
+    margin-top:80px;
+}
+.bizImg2{margin-top:40px;}
+
+#brand_save{
+    width:100%;
+    position:relative;
+    display:inline-block;
+    margin-top:80px;
+}
+
+
+.branc_line_s ul{margin-top:50px;}
+.branc_line_s ul li{
+    float:left;
+    border:1px solid blue;
+    padding:20px;
+    font-weight:550;
+}
+
+
+.branc_line_s ul li:nth-child(1){
+ 
+}
+.branc_line_s ul li:nth-child(2){
+ 
+}
+
+.branc_line_s ul li:nth-child(3){
+ 
+}
+
+.branc_line_s ul li:nth-child(4){
+ 
+}
+
+.branc_line_s ul li:nth-child(5){
+ 
+}
+
+.branc_line_s ul li:nth-child(6){
+ 
+}
+
+.branc_line_s ul li:nth-child(7){
+ 
+}
+
+.branc_line_s ul li:nth-child(8){
+ 
+}
+
+.branc_line_s ul li:nth-child(9){
+ 
+}
+
+.branc_line_s ul li:nth-child(10){
+ 
+}
+
+
+
+.brand_footer{
+
+}
+.footer_list{
+    width:100%;
+    margin-top:50px;
+    text-align:left;
+    font-weight:500;
+}
+
+.link_list_01{
+    margin-top:30px;
+    color:#00bdd4;
+    cursor:pointer;
+}
+
+
+
+
+
+@media screen and (max-width:1200px) and (min-width: 1000px) {
+
+    .p_l_d_b2{padding-top:100px!important;margin-top:-5px!important}
+ 
+    }
+
+    
+    @media screen and (max-width:900px) and (min-width:600px) {
+
+    .p_l_d_b2{padding-top:80px!important;margin-top:-5px!important}
+    #service_wrapper{width:90%}
+    .chart-container{width:100%;padding-bottom:40px;}
+    .chart-content{margin-top:40px;font-size:17px;line-height:1.5;}
+    .chart-content2{margin-top:40px;width:100%;font-size:17px;line-height:1.5;}
+
+    .grapy_s{width:100%;}
+    .text-content{font-size:17px;}
+
+    .biz_ul ul{width:100%;}
+    .biz_ul ul li{margin-left:0px;font-size:17px;}
+    .service_main_wrapper{font-size:25px;}
+    }
+    
+
+    @media screen and (max-width:600px) and (min-width:200px) {
+
+
+        .p_l_d_b2{padding-top:80px!important;margin-top:-5px!important}
+        #service_wrapper{width:90%}
+        .chart-container{width:100%;padding-bottom:40px;}
+        .chart-content{margin-top:40px;font-size:14px;line-height:1.5;}
+        .chart-content2{margin-top:40px;width:100%;font-size:14px;line-height:1.5;}
+    .biz_ul{width:100%;}
+        .grapy_s{width:100%;}
+        .text-content{font-size:14px;}
+    
+        .biz_ul ul{width:100%;}
+        .biz_ul ul li{margin-left:0px;font-size:14px;}
+        .text-content{text-align:left;}
+        #videArea ul li{height:150px;}
+        .service_main_wrapper{font-size:20px;}
+        .service_txt{margin-top:20px;}
+        .hito{margin-top:40px;}
+        }
+      

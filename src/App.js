@@ -19,9 +19,10 @@ import News_letter from './News_letter.js';
 import Corporation from './Corporation.js';
 import Careers2 from './Careers2.js'
 
-
+import Service from './Service.js';
 import AOS, { init } from "aos";
 import "aos/dist/aos.css";
+
 AOS.init();  
 
 function App() {
@@ -167,8 +168,9 @@ $('.banner_02').mouseout(function(e){
         <Route path="/corporation" element={<Corporation/>}/>
         <Route path="/careers2" element={<Careers2/>}/>
         <Route path="/news_letter" element={<News_letter/>}/>
+        <Route path="/service" element={<Service/>}/>       
       </Route>
-        <Route path="*" element={<div>404. That’s an error.</div>}/>
+        <Route path="*" element={<div>404. 페이지 링크</div>}/>
     </Routes>
     </>
   );
@@ -211,7 +213,7 @@ function Main(props){
                   <dd>
                     <ul>
                       <li onClick={() => window.open('http://yogibo.kr', '_blank')}>Yogibo</li>
-                      <li onClick={()=>window.open('http://betterair.kr','_blank')}>betterair</li>
+                      <li onClick={() =>window.open('http://betterair.kr','_blank')}>betterair</li>
                     </ul>
                   </dd>
                 </dl>
