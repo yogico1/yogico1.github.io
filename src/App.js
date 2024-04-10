@@ -156,7 +156,6 @@ $('.banner_02').mouseout(function(e){
 })
   let navigate = useNavigate();//링크연결
   return (
-    <>
     <Routes>
       <Route path="/" element={<Main  navigate={navigate}/>}>
         <Route path="/" element={<Section/>}/>
@@ -172,7 +171,6 @@ $('.banner_02').mouseout(function(e){
       </Route>
         <Route path="*" element={<div>404. 페이지 링크</div>}/>
     </Routes>
-    </>
   );
 };
 
