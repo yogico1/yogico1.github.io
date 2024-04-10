@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, useLocation } from 'react-router-dom'; // Router로 변경
+import { HashRouter, useLocation } from 'react-router-dom'; // Router로 변경
 import { Provider } from "react-redux";
 import store from './store.js';
 
@@ -20,10 +20,10 @@ export default function ScrollToTop() {
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter> {/* BrowserRouter -> Router로 변경 */}
+      <HashRouter> {/* BrowserRouter -> Router로 변경 */}
         <ScrollToTop />
         <App />
-      </BrowserRouter>
+      </HashRouter>
     </Provider>
   </React.StrictMode>,
   document.getElementById('root')
