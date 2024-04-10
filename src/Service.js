@@ -277,8 +277,8 @@ function Service() {
                 <div id="videArea"  data-aos="fade-up" data-aos-duration="800">
                     <div className="service_main_wrapper">HRF,빈백 소파 전용 충전재</div>
                     <ul>
-                        <li></li>
-                        <li></li>
+                        <li>영상추가예정</li>
+                        <li>영상추가예정</li>
                     </ul>
                     <div className="text-content">
                     뿐만 아니라 HRF는 황색포도상구균, 
@@ -306,20 +306,15 @@ function Service() {
                     <div className="bizImg2"><img src="https://yogibo.openhost.cafe24.com/yogico/r3j9DaG.png"/></div>
                 </div>
                 <div id="brand_save">
-                    <div className="service_main_wrapper">빈백 브랜드를 만들기 위한 제반 비용과 시간을 모두 SAVE</div>
+                    <div className="service_main_wrapper text-center">빈백 브랜드를 만들기 위한 제반 비용과 시간을 모두 = <span> SAVE</span></div>
 
                     <div className="branc_line_s">
                         <ul>
-                            <li >급변하는<br/>원자재비</li>
-                            <li>Money</li>
-                            <li>물류 센터<br/> 구축 비용</li>
-                            <li>Time</li>
-                            <li>치솟는<br/> 인건비</li>
-                            <li>아이콘</li>
-                            <li>재조 환경 <br/>구축비용</li>
-                            <li>Efficiency</li>
-                            <li>쉽지 않은<br/> 인력관리</li>
-                            <li>아이콘</li>
+                            <li ><span>Money</span><br/>급변하는원자재비</li>
+                            <li><span>Time</span> <br/>물류 센터 구축 비용</li>
+                            <li><span>Unit Labor Cost</span> <br/> 치솟는 인건비</li>
+                            <li><span>Efficiency</span> <br/>재조 환경구축비용</li>
+                            <li><span>Human Resources</span><br/> 쉽지 않은 인력관리</li>
                         </ul>
                     </div>   
                                
@@ -327,7 +322,7 @@ function Service() {
 
                 <div id="brand_footer" >
                     <div className="text-content footer_list">
-                        (주)요기코퍼레이션은 HRF 비즈 판매뿐만 아니라 빈백 소파 OEM과 ODM 솔류션도 제공합니다.<br/> 
+                        (주)요기코퍼레이션은 HRF 비즈 판매뿐만 아니라 빈백 소파 OEM과 ODM 솔루션도 제공합니다.<br/> 
                         자세한 내용은 하기 링크 참고 및 하기 연락처로 문의 주시길 바랍니다  
                     </div>
                     <div className="link_list_01">http://bit.ly/yogico_hrf_solution </div>
@@ -335,6 +330,8 @@ function Service() {
                 </div>
             </div>
         
+
+
 
 
             <br/> <br/> <br/> <br/>
