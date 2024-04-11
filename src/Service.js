@@ -256,8 +256,7 @@ function Service() {
                         <div className="chart-title">복원력</div>                    
                         <canvas id="myLineChart2"></canvas>
                         <div class="chart-content">
-                        비즈의 <strong>복원력이</strong> 높다는 것은 충전 주기가 늘어날 뿐 아니라 빈백 소파의 내구성도 향상되어 
-                        <strong>오랜 기간 사용할 수 있음</strong>
+                        비즈의 <strong>복원력</strong>이 높다는 것은 빈백 소파의 내구성이 향상되어 빈백 충전 주기를 현저히 줄이면서도 <strong>오랜 기간 사용할 수 있음</strong>
                         </div>
                     </div>
                     
@@ -276,9 +275,17 @@ function Service() {
 
                 <div id="videArea"  data-aos="fade-up" data-aos-duration="800">
                     <div className="service_main_wrapper">HRF,빈백 소파 전용 충전재</div>
+                    <div className="video_service_title">
+                        <div>EPP 수치 최대 40</div>                         
+                        <div>HRF 수치 최대 70</div>
+                    </div>            
                     <ul>
-                        <li>영상추가예정</li>
-                        <li>영상추가예정</li>
+                        <li>
+                            <video src="https://yogico.cafe24.com/video/HRF_02.mp4" controls/>
+                         </li>                        
+                        <li>
+                            <video src="https://yogico.cafe24.com/video/HRF_01.mp4" controls/>
+                         </li>
                     </ul>
                     <div className="text-content">
                     뿐만 아니라 HRF는 황색포도상구균, 
@@ -288,7 +295,8 @@ function Service() {
                 <div id="biz"  data-aos="fade-up" data-aos-duration="800">
                     <div className="service_main_wrapper">HRF 비즈의 장점</div>
                     <div className="bizImg">
-                        <ul>
+                        <img src="https://yogibo.openhost.cafe24.com/yogico/NPIJtRX3.png"/>
+                        {/* <ul>
                             <li>
                                 <img src="https://yogibo.openhost.cafe24.com/yogico/standard.jpg"/>
                                 <span>EPS (1세대 비즈)</span>    
@@ -301,7 +309,7 @@ function Service() {
                                 <img src="https://yogibo.openhost.cafe24.com/yogico/premiumplus.jpg"/>
                                 <span>HRF (3세대 비즈)</span> 
                             </li>
-                        </ul>
+                        </ul> */}
                     </div>
                    
                    
@@ -342,7 +350,7 @@ function Service() {
                         (주)요기코퍼레이션은 HRF 비즈 판매뿐만 아니라 빈백 소파 OEM과 ODM 솔루션도 제공합니다.<br/> 
                         자세한 내용은 하기 링크 참고 및 하기 연락처로 문의 주시길 바랍니다  
                     </div>
-                    <div className="link_list_01">http://bit.ly/yogico_hrf_solution </div>
+                    <div className="link_list_01" onClick={()=>window.open('http://bit.ly/yogico_hrf_solution')}>http://bit.ly/yogico_hrf_solution </div>
                     <div className="link_list_02">partner@yogico.kr / 02-557-0920</div>
                 </div>
             </div>
