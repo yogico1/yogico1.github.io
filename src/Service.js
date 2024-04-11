@@ -287,7 +287,24 @@ function Service() {
                 </div>
                 <div id="biz"  data-aos="fade-up" data-aos-duration="800">
                     <div className="service_main_wrapper">HRF 비즈의 장점</div>
-                    <div className="bizImg"><img src="https://yogibo.openhost.cafe24.com/yogico/NPIJtRX3.png"/></div>
+                    <div className="bizImg">
+                        <ul>
+                            <li>
+                                <img src="https://yogibo.openhost.cafe24.com/yogico/standard.jpg"/>
+                                <span>EPS (1세대 비즈)</span>    
+                            </li>
+                            <li>
+                                <img src="https://yogibo.openhost.cafe24.com/yogico/premium.jpg"/>
+                                <span>EPP (2세대 비즈)</span>   
+                            </li>
+                            <li>
+                                <img src="https://yogibo.openhost.cafe24.com/yogico/premiumplus.jpg"/>
+                                <span>HRF (3세대 비즈)</span> 
+                            </li>
+                        </ul>
+                    </div>
+                   
+                   
                     <div className="biz_ul">
                         <ul>
                             <li>※흰색,</li>
