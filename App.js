@@ -1,7 +1,7 @@
 /*eslint-disable*/
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button} from 'react-bootstrap'
-import { Routes, Route, Link, useNavigate, Outlet } from 'react-router-dom';
+import { BrowserRouter as Router, Routes,Route, Link, useNavigate, Outlet } from 'react-router-dom';
 import Visual from './Visual.js'
 import News from './News.js'
 import Section from './Section.js'
@@ -156,7 +156,6 @@ $('.banner_02').mouseout(function(e){
 })
   let navigate = useNavigate();//링크연결
   return (
-    <>
     <Routes>
       <Route path="/" element={<Main  navigate={navigate}/>}>
         <Route path="/" element={<Section/>}/>
@@ -172,7 +171,6 @@ $('.banner_02').mouseout(function(e){
       </Route>
         <Route path="*" element={<div>404. 페이지 링크</div>}/>
     </Routes>
-    </>
   );
 };
 
@@ -223,6 +221,11 @@ function Main(props){
                   <dt><Link to="news">News</Link></dt>
                 </dl>
               </div>
+              <div className="news_txt">
+                <dl>
+                  <dt><Link to="service">Service</Link></dt>
+                </dl>
+              </div>            
               <div className="news_txt">
                 <dl>
                   <dt><Link to="careers" className="careers">Careers</Link></dt>

@@ -99,6 +99,10 @@ width:100%;
     width:100%;
 }
 #videArea ul li{
+    font-size:25px;
+    text-align:center;
+    color:#fff;
+    line-height:300px;
     margin-top:4%;
     width:48%;
     float:left;
@@ -125,6 +129,25 @@ width:100%;
     display:inline-block;
     margin-top:80px;
 }
+
+
+.bizImg{
+    position:relative;
+    display:inline-block;
+    width:100%;
+}
+.bizImg ul{margin-top:4%;}
+.bizImg ul li{
+    float:left;
+    width:32%;
+    margin-left:1%;
+}
+.bizImg ul li span{font-weight:600;
+position:relative;display:inline-block;
+margin-top:10px;
+}
+
+
 
 .biz_ul ul{width:85%;margin:0 auto;text-align:center;
 margin-top:30px;
@@ -155,32 +178,62 @@ margin-top:30px;
 }
 
 
-.branc_line_s ul{margin-top:50px;}
+.brand_title{
+    margin-top:50px;
+    font-weight:600;
+    font-size:40px;
+}
+.branc_line_s ul{margin-top:70px;}
 .branc_line_s ul li{
     float:left;
-    border:1px solid blue;
-    padding:20px;
-    font-weight:550;
+    border:1px solid #111;
+    padding:22px;
+    font-weight:400;
 }
+.text-center{text-align:left!important;}
+.text-center span {
+    font-weight: 600;
+    position: relative;
+    margin-top: 40px;
+    font-size: 81px;
+    display: inline-block;
+    position: absolute;
+    margin-top: -35px !important;
+    margin-left: 36px;
+}
+.branc_line_s{
+    text-align:center;
+}
+
+
+.branc_line_s span{
+    font-weight:800!important;;
+}
+.branc_line_s{
+    width:100%;
+    position:relative;
+    display:inline-block;
+}
+
 
 
 .branc_line_s ul li:nth-child(1){
  
 }
 .branc_line_s ul li:nth-child(2){
- 
+ margin-left:5px;
 }
 
 .branc_line_s ul li:nth-child(3){
- 
+    margin-left:5px;
 }
 
 .branc_line_s ul li:nth-child(4){
- 
+    margin-left:5px;
 }
 
 .branc_line_s ul li:nth-child(5){
- 
+    margin-left:5px;
 }
 
 .branc_line_s ul li:nth-child(6){
@@ -225,7 +278,7 @@ margin-top:30px;
 
 
 
-@media screen and (max-width:1200px) and (min-width: 1000px) {
+@media screen and (max-width:1900px) and (min-width: 1000px) {
 
     .p_l_d_b2{padding-top:100px!important;margin-top:-5px!important}
  
@@ -246,8 +299,42 @@ margin-top:30px;
     .biz_ul ul{width:100%;}
     .biz_ul ul li{margin-left:0px;font-size:17px;}
     .service_main_wrapper{font-size:25px;}
+
+    /*빈백 소파 부분*/
+
+    .branc_line_s ul li{padding:8px}
+    .service_main_wrapper{font-size:22px;}
+    .text-center span {
+        font-weight: 600;
+        position: relative;
+        margin-top: 40px;
+        font-size: 63px;
+        display: inline-block;
+        position: absolute;
+        margin-top: -35px !important;
+        margin-left: 27px;
+    }
+
     }
     
+    @media screen and (max-width:800px) and (min-width:600px) {
+    
+        .branc_line_s ul li:nth-child(5) {
+            margin-top:10px;
+            margin-left:0px;
+        }
+        .text-center span {
+            font-weight: 600;
+            position: relative;
+            margin-top: 40px;
+            font-size: 42px;
+            display: inline-block;
+            position: absolute;
+            margin-top: -19px !important;
+            margin-left: 10px;
+        }
+
+    }
 
     @media screen and (max-width:600px) and (min-width:200px) {
 
@@ -257,7 +344,7 @@ margin-top:30px;
         .chart-container{width:100%;padding-bottom:40px;}
         .chart-content{margin-top:40px;font-size:14px;line-height:1.5;}
         .chart-content2{margin-top:40px;width:100%;font-size:14px;line-height:1.5;}
-    .biz_ul{width:100%;}
+        .biz_ul{width:100%;}
         .grapy_s{width:100%;}
         .text-content{font-size:14px;}
     
@@ -268,5 +355,66 @@ margin-top:30px;
         .service_main_wrapper{font-size:20px;}
         .service_txt{margin-top:20px;}
         .hito{margin-top:40px;}
+
+        .text-center{
+            font-size:16px;
+
+        }
+        .branc_line_s ul{margin-top:30px;}
+        .branc_line_s ul li{padding:5px;font-size:14px;}
+        .branc_line_s ul li:nth-child(4) {
+
+            margin-left:5px;
+        }
+
+        .branc_line_s ul li:nth-child(5) {
+            margin-top:10px;
+            margin-left:0px;
+        }
+        .text-center span {
+            font-weight: 600;
+            position: relative;
+            margin-top: 40px;
+            font-size: 37px;
+            display: inline-block;
+            position: absolute;
+            margin-top: -20px !important;
+            margin-left: 10px;
+        }
+
+        }
+
+
+        
+    @media screen and (max-width:500px) and (min-width:300px) {
+
+
+        .branc_line_s ul{margin-top:40px;}
+        .branc_line_s ul li {
+            /* padding: 5px; */
+            font-size: 15px;
+        }
+
+        .branc_line_s ul li {
+            float: left;
+            padding: 22px;
+            font-weight: 400;
+        }
+
+        .branc_line_s ul li{
+            margin:0px!important;
+            border:none;
+        
+        }
+        .text-center span {
+            font-weight: 600;
+            position: relative;
+            margin-top: 40px;
+            font-size: 31px;
+            display: inline-block;
+            position: absolute;
+            margin-top: 18px !important;
+            margin-left: 109px;
+        }
         }
       
