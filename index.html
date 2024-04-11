@@ -1,1 +1,44 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/yogico.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/yogico.png"/><link rel="manifest" href="/manifest.json"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"><title>Yogi Corporation Inc</title><script defer="defer" src="/static/js/main.502cb728.js"></script><link href="/static/css/main.b82f5238.css" rel="stylesheet"></head><script type="text/javascript">!function(i){if(i.search){var a={};i.search.slice(1).split("&").forEach((function(i){var l=i.split("=");a[l[0]]=l.slice(1).join("=").replace(/~and~/g,"&")})),void 0!==a.p&&window.history.replaceState(null,null,i.pathname.slice(0,-1)+(a.p||"")+(a.q?"?"+a.q:"")+i.hash)}}(window.location)</script><body><style>body a{color:#111}</style><div id="root"></div><script src="https://unpkg.com/aos@next/dist/aos.js"></script><script>AOS.init()</script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/yogico.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description"content="Web site created using create-react-app"/>
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/yogico.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+        <!--폰트 -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Yogi Corporation Inc</title>
+  </head>
+  <script type="text/javascript">
+    (function (l) {
+      if (l.search) {
+        var q = {};
+        l.search.slice(1).split('&').forEach(function (v) {
+          var a = v.split('=');
+          q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
+        });
+        if (q.p !== undefined) {
+          window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + (q.p || '') +
+            (q.q ? ('?' + q.q) : '') +
+            l.hash
+          );
+        }
+      }
+    }(window.location))
+  </script>
+  <body>
+    <style>
+      body a{color:#111;}
+    </style>
+    <div id="root"></div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();  
+    </script>
+  </body>
+</html>
