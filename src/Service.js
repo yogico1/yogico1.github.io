@@ -229,9 +229,9 @@ function Service() {
         <section className="p_l_d_b2">
             <div id="service_wrapper"  data-aos="fade-up" data-aos-duration="800">
                 <div className="service_inner">
-                    <div className="service_main_wrapper">HRF,빈백 소파 전용 충전재</div>
+                    <div className="service_main_wrapper">HRF, 빈백 소파 전용 충전재</div>
                     <div className="service_txt">
-                        글로벌 라이프스타일 브랜드yogibo
+                        글로벌 라이프스타일 브랜드 Yogibo
                         의 국내 총판 기업인 요기코퍼레이션은 
                         지난 5년 간 다양한 시도와 연구개발을 통해 빈백 소파 전용 충전재, 
                         HRF(High Resillience Form)를 국내 대기업과 공동 개발하여 
@@ -274,23 +274,20 @@ function Service() {
                 </div> 
 
                 <div id="videArea"  data-aos="fade-up" data-aos-duration="800">
-                    <div className="service_main_wrapper">HRF,빈백 소파 전용 충전재</div>
+                    <div className="service_main_wrapper">HRF vs EPP 탄성력 비교 (볼 드롭 테스트)</div>
                     <div className="video_service_title">
-                        <div>EPP 수치 최대 40</div>                         
-                        <div>HRF 수치 최대 70</div>
+                        <div>HRF 최대 수치 : 70</div>                        
+                        <div>EPP 최대 수치 : 40</div>                         
                     </div>            
                     <ul>
                         <li>
+                            <video src="https://yogico.cafe24.com/video/HRF_01.mp4" controls/>
+                        </li>                        
+                        <li>
                             <video src="https://yogico.cafe24.com/video/HRF_02.mp4" controls/>
                          </li>                        
-                        <li>
-                            <video src="https://yogico.cafe24.com/video/HRF_01.mp4" controls/>
-                         </li>
+
                     </ul>
-                    <div className="text-content">
-                    뿐만 아니라 HRF는 황색포도상구균, 
-                    대장균 등 유해 세균의 번식을 99.9% 감소시키는 항균 비즈로서<br/> 코로나19 팬데믹 이후 더욱 민감해진 병원균에 대한 솔루션입니다. 
-                    </div>
                 </div>
                 <div id="biz"  data-aos="fade-up" data-aos-duration="800">
                     <div className="service_main_wrapper">HRF 비즈의 장점</div>
@@ -312,26 +309,29 @@ function Service() {
                         </ul> */}
                     </div>
                    
-                   
                     <div className="biz_ul">
                         <ul>
-                            <li>※흰색,</li>
+                            <li>흰색,</li>
                             <li>무취,</li>
                             <li>무독성,</li>
                             <li>친환경,</li>
-                            <li>향균비즈,</li>
-                            <li>기존 빈백용 충전재 대비 탄성과 복원력 탁월,</li>
-                            <li>기존 비즈 대비 가격경쟁력 우수</li>
+                            <li>항균,</li>
+                            <li>기존 빈백용 충전재 대비 탄성 & 복원력,</li>
+                            <li>가격경쟁력 우수</li>
                         </ul>
                     </div>    
                 </div>
 
                 <div id="biz_info"   data-aos="fade-up" data-aos-duration="800">
-                    <div className="service_main_wrapper">비즈 향균 시험 성적서</div>
+                    <div className="service_main_wrapper">HRF 항균 시험 성적서</div>
+                    <div className="text-content">
+                    HRF는 황색포도상구균, 대장균 등 유해 세균의 번식을 99.9% 감소시키는 항균 비즈로서
+                    코로나19 팬데믹 이후 더욱 민감해진 병원균에 대한 솔루션입니다 
+                    </div>                   
                     <div className="bizImg2"><img src="https://yogibo.openhost.cafe24.com/yogico/r3j9DaG.png"/></div>
                 </div>
                 <div id="brand_save">
-                    <div className="service_main_wrapper text-center">빈백 브랜드를 만들기 위한 제반 비용과 시간을 모두 = <span> SAVE</span></div>
+                    <div className="service_main_wrapper text-center">빈백 브랜드를 만들기 위한 제반 비용과 시간을 모두 <span> SAVE</span></div>
 
                     <div className="branc_line_s">
                         <ul>

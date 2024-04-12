@@ -21,7 +21,7 @@ function Section_03(){
              <div class="brand_inner col-lg-6 banner_02" onClick={()=>window.open('https://betterair.kr/','_blank')}>
                 <div class="brand_dim"></div>
                 <div class="brand_img ">
-                  <img src="https://yogibo.kr/yogico/img/banner/betterair_banner.png" alt=""/>
+                  <img src="https://yogibo.kr/yogico/img/banner/betterair_banner.png" alt="beterair"/>
                   </div>
                 <div class="brand_logo better_logo">
                    <img src="https://yogibo.kr/yogico/img/icon/betterair_white.png"
@@ -29,8 +29,19 @@ function Section_03(){
                    />
                 </div>
                 <div class="brand_line better_line_img">
-                  <img src="https://yogibo.kr/yogico/img/icon/b_on.png" alt=""  
+                  <img src="https://yogibo.kr/yogico/img/icon/b_on.png" alt="아이콘"  
                   style={{width: "30px"}}/></div>
+             </div>
+
+            <br/>
+             <div class="brand_inner col-lg-6 banner_03" style={{marginTop:"20px!important"}}
+             onClick={()=>window.open('https:/yogico.kr/#/service','_blank')}>
+                <div class="brand_dim"></div>
+                <div class="brand_img ">
+                  <img src="https://yogibo.kr/yogico/img/banner/hrf_banner.jpg" alt="HRF배너"/>
+                  </div>
+             </div>
+             <div class="brand_inner col-lg-6 banner_04" style={{marginTop:"20px!important"}}>
              </div>
           </div>
 

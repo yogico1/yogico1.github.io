@@ -153,6 +153,15 @@ $('.banner_02').mouseout(function(e){
   $('.banner_02 .brand_dim').hide();
 })
 
+
+$('.banner_03').mouseover(function(e){
+
+  $('.banner_03 .brand_dim').show();
+})
+$('.banner_03').mouseout(function(e){
+  $('.banner_03 .brand_dim').hide();
+})
+
 })
   let navigate = useNavigate();//링크연결
   return (
@@ -169,7 +178,6 @@ $('.banner_02').mouseout(function(e){
         <Route path="/news_letter" element={<News_letter/>}/>
         <Route path="/service" element={<Service/>}/>       
       </Route>
-        <Route path="*" element={<div>404. 페이지 링크</div>}/>
     </Routes>
   );
 };

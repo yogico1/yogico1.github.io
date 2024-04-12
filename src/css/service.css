@@ -111,7 +111,8 @@ width:100%;
     font-weight:600;
     margin-top:4%;
     padding-bottom:1%;
-    font-size:20px;
+    font-size:18px;
+    font-weight:500!important;
 }
 #videArea ul li{
     font-size:25px;
@@ -138,6 +139,7 @@ width:100%;
     margin-top:2%;
     text-align:center;
     font-weight:500;
+    text-align:left!important;
 }
 
 
@@ -167,16 +169,16 @@ margin-top:10px;
 
 
 
-.biz_ul ul{width:85%;margin:0 auto;text-align:center;
+.biz_ul ul{width:60%;margin:0 auto;text-align:center;
 margin-top:30px;
 }
 .biz_ul ul li{
     float:left;
     height:30px;
     font-weight:500;
-    font-size:18px;
+    font-size:16px;
     text-align:center;
-    margin-left:8px;
+    margin-left:3px;
 }
 .biz_ul ul li:nth-child(1){margin-left:0;}
 
@@ -298,7 +300,7 @@ margin-top:70px;
     .chart-content2{margin-top:40px;width:100%;font-size:17px;line-height:1.5;}
 
     .grapy_s{width:100%;}
-    .text-content{font-size:17px;}
+    .text-content{font-size:17px;text-align:left;}
 
     .biz_ul ul{width:100%;}
     .biz_ul ul li{margin-left:0px;font-size:17px;}
@@ -350,7 +352,7 @@ margin-top:70px;
         .chart-content2{margin-top:40px;width:100%;font-size:14px;line-height:1.5;}
         .biz_ul{width:100%;}
         .grapy_s{width:100%;}
-        .text-content{font-size:14px;margin-top:5%;}
+        .text-content{font-size:14px;margin-top:5%;text-align:left;}
     
         .biz_ul ul{width:100%;}
         .biz_ul ul li{margin-left:0px;font-size:14px;}
@@ -411,14 +413,14 @@ margin-top:70px;
         
         }
         .text-center span {
-            font-weight: 600;
-            position: relative;
-            margin-top: 40px;
-            font-size: 31px;
-            display: inline-block;
-            position: absolute;
-            margin-top: 18px !important;
-            margin-left: 109px;
-        }
+                font-weight: 600;
+                margin-top: 40px;
+                font-size: 31px;
+                position: absolute!important;
+                left:0!important;;
+                top:0!important;;
+                margin-top: 30px !important;
+                margin-left: 109px;
+            }
         }
       
