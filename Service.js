@@ -229,9 +229,9 @@ function Service() {
         <section className="p_l_d_b2">
             <div id="service_wrapper"  data-aos="fade-up" data-aos-duration="800">
                 <div className="service_inner">
-                    <div className="service_main_wrapper">HRF,빈백 소파 전용 충전재</div>
+                    <div className="service_main_wrapper">HRF, 빈백 소파 전용 충전재</div>
                     <div className="service_txt">
-                        글로벌 라이프스타일 브랜드yogibo
+                        글로벌 라이프스타일 브랜드 Yogibo
                         의 국내 총판 기업인 요기코퍼레이션은 
                         지난 5년 간 다양한 시도와 연구개발을 통해 빈백 소파 전용 충전재, 
                         HRF(High Resillience Form)를 국내 대기업과 공동 개발하여 
@@ -256,8 +256,7 @@ function Service() {
                         <div className="chart-title">복원력</div>                    
                         <canvas id="myLineChart2"></canvas>
                         <div class="chart-content">
-                        비즈의 <strong>복원력이</strong> 높다는 것은 충전 주기가 늘어날 뿐 아니라 빈백 소파의 내구성도 향상되어 
-                        <strong>오랜 기간 사용할 수 있음</strong>
+                        비즈의 <strong>복원력</strong>이 높다는 것은 빈백 소파의 내구성이 향상되어 빈백 충전 주기를 현저히 줄이면서도 <strong>오랜 기간 사용할 수 있음</strong>
                         </div>
                     </div>
                     
@@ -275,20 +274,26 @@ function Service() {
                 </div> 
 
                 <div id="videArea"  data-aos="fade-up" data-aos-duration="800">
-                    <div className="service_main_wrapper">HRF,빈백 소파 전용 충전재</div>
+                    <div className="service_main_wrapper">HRF vs EPP 탄성력 비교 (볼 드롭 테스트)</div>
+                    <div className="video_service_title">
+                        <div>HRF 최대 수치 : 70</div>                        
+                        <div>EPP 최대 수치 : 40</div>                         
+                    </div>            
                     <ul>
-                        <li>영상추가예정</li>
-                        <li>영상추가예정</li>
+                        <li>
+                            <video src="https://yogico.cafe24.com/video/HRF_01.mp4" controls/>
+                        </li>                        
+                        <li>
+                            <video src="https://yogico.cafe24.com/video/HRF_02.mp4" controls/>
+                         </li>                        
+
                     </ul>
-                    <div className="text-content">
-                    뿐만 아니라 HRF는 황색포도상구균, 
-                    대장균 등 유해 세균의 번식을 99.9% 감소시키는 항균 비즈로서<br/> 코로나19 팬데믹 이후 더욱 민감해진 병원균에 대한 솔루션입니다. 
-                    </div>
                 </div>
                 <div id="biz"  data-aos="fade-up" data-aos-duration="800">
                     <div className="service_main_wrapper">HRF 비즈의 장점</div>
                     <div className="bizImg">
-                        <ul>
+                        <img src="https://yogibo.openhost.cafe24.com/yogico/NPIJtRX3.png"/>
+                        {/* <ul>
                             <li>
                                 <img src="https://yogibo.openhost.cafe24.com/yogico/standard.jpg"/>
                                 <span>EPS (1세대 비즈)</span>    
@@ -301,29 +306,32 @@ function Service() {
                                 <img src="https://yogibo.openhost.cafe24.com/yogico/premiumplus.jpg"/>
                                 <span>HRF (3세대 비즈)</span> 
                             </li>
-                        </ul>
+                        </ul> */}
                     </div>
-                   
                    
                     <div className="biz_ul">
                         <ul>
-                            <li>※흰색,</li>
+                            <li>흰색,</li>
                             <li>무취,</li>
                             <li>무독성,</li>
                             <li>친환경,</li>
-                            <li>향균비즈,</li>
-                            <li>기존 빈백용 충전재 대비 탄성과 복원력 탁월,</li>
-                            <li>기존 비즈 대비 가격경쟁력 우수</li>
+                            <li>항균,</li>
+                            <li>기존 빈백용 충전재 대비 탄성 & 복원력,</li>
+                            <li>가격경쟁력 우수</li>
                         </ul>
                     </div>    
                 </div>
 
                 <div id="biz_info"   data-aos="fade-up" data-aos-duration="800">
-                    <div className="service_main_wrapper">비즈 향균 시험 성적서</div>
+                    <div className="service_main_wrapper">HRF 항균 시험 성적서</div>
+                    <div className="text-content">
+                    HRF는 황색포도상구균, 대장균 등 유해 세균의 번식을 99.9% 감소시키는 항균 비즈로서
+                    코로나19 팬데믹 이후 더욱 민감해진 병원균에 대한 솔루션입니다 
+                    </div>                   
                     <div className="bizImg2"><img src="https://yogibo.openhost.cafe24.com/yogico/r3j9DaG.png"/></div>
                 </div>
                 <div id="brand_save">
-                    <div className="service_main_wrapper text-center">빈백 브랜드를 만들기 위한 제반 비용과 시간을 모두 = <span> SAVE</span></div>
+                    <div className="service_main_wrapper text-center"><p>빈백을 만들기 위한 제반 비용과 시간을 모두 SAVE</p></div>
 
                     <div className="branc_line_s">
                         <ul>
@@ -337,12 +345,12 @@ function Service() {
                                
                 </div>
 
-                <div id="brand_footer" >
+                <div id="brand_footer">
                     <div className="text-content footer_list">
                         (주)요기코퍼레이션은 HRF 비즈 판매뿐만 아니라 빈백 소파 OEM과 ODM 솔루션도 제공합니다.<br/> 
                         자세한 내용은 하기 링크 참고 및 하기 연락처로 문의 주시길 바랍니다  
                     </div>
-                    <div className="link_list_01">http://bit.ly/yogico_hrf_solution </div>
+                    <div className="link_list_01" onClick={()=>window.open('http://bit.ly/yogico_hrf_solution')}>http://bit.ly/yogico_hrf_solution </div>
                     <div className="link_list_02">partner@yogico.kr / 02-557-0920</div>
                 </div>
             </div>
