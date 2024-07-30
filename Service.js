@@ -350,7 +350,7 @@ function Service() {
                         (주)요기코퍼레이션은 HRF 비즈 판매뿐만 아니라 빈백 소파 OEM과 ODM 솔루션도 제공합니다.<br/> 
                         자세한 내용은 하기 링크 참고 및 하기 연락처로 문의 주시길 바랍니다  
                     </div>
-                    <div className="link_list_01" onClick={()=>window.open('http://bit.ly/yogico_hrf_solution')}>http://bit.ly/yogico_hrf_solution </div>
+                    <div className="link_list_01" onClick={()=>window.open('http://bit.ly/yogico_hrf_solution')}>http://bit.ly/yogico_hrf_solution </div><br/>
                     <div className="link_list_02">partner@yogico.kr / 02-557-0920</div>
                 </div>
             </div>
