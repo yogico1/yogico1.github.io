@@ -24,10 +24,10 @@ function Footer(){
                 <div class=" col-xl-4 col-md-4 col-sm-12 col-xs-12">
                     <ul>
                         <li style={{cursor:'pointer',fontSize:'15px'}} 
-                          onClick={()=>window.open('https://yogico.kr/#/partners')}>
+                          onClick={()=>window.open('https://yogico.kr/partners')}>
                         <strong>파트너스 &nbsp;<img src="http://yogibo.kr//web/img/icon/new/arrow_right.svg" style={{width:'7px'}}/></strong></li>
                         <li style={{cursor:'pointer',fontSize:'15px'}} 
-                          onClick={()=>window.open('https://yogico.kr/#/careers2')}>
+                          onClick={()=>window.open('https://yogico.kr/careers2')}>
                             <strong>입사지원 &nbsp;<img src="http://yogibo.kr//web/img/icon/new/arrow_right.svg" style={{width:'7px'}}/></strong>
                           </li>
                         <li>02-557-0920</li>

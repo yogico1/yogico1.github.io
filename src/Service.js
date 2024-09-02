@@ -331,7 +331,7 @@ function Service() {
                     <div className="bizImg2"><img src="https://yogibo.openhost.cafe24.com/yogico/r3j9DaG.png"/></div>
                 </div>
                 <div id="brand_save">
-                    <div className="service_main_wrapper text-center">빈백 브랜드를 만들기 위한 제반 비용과 시간을 모두 <span> SAVE</span></div>
+                    <div className="service_main_wrapper text-center"><p>빈백을 만들기 위한 제반 비용과 시간을 모두 SAVE</p></div>
 
                     <div className="branc_line_s">
                         <ul>
@@ -345,12 +345,12 @@ function Service() {
                                
                 </div>
 
-                <div id="brand_footer" >
+                <div id="brand_footer">
                     <div className="text-content footer_list">
                         (주)요기코퍼레이션은 HRF 비즈 판매뿐만 아니라 빈백 소파 OEM과 ODM 솔루션도 제공합니다.<br/> 
                         자세한 내용은 하기 링크 참고 및 하기 연락처로 문의 주시길 바랍니다  
                     </div>
-                    <div className="link_list_01" onClick={()=>window.open('http://bit.ly/yogico_hrf_solution')}>http://bit.ly/yogico_hrf_solution </div>
+                    <div className="link_list_01" onClick={()=>window.open('http://bit.ly/yogico_hrf_solution')}>http://bit.ly/yogico_hrf_solution </div><br/>
                     <div className="link_list_02">partner@yogico.kr / 02-557-0920</div>
                 </div>
             </div>

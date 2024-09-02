@@ -1,12 +1,12 @@
 /*eslint-disable*/
 import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
 import {Button} from 'react-bootstrap'
-import { BrowserRouter as Router, Routes,Route, Link, useNavigate, Outlet } from 'react-router-dom';
+import { BrowserRouter, Routes,Route, Link, useNavigate, Outlet } from 'react-router-dom';
 import Visual from './Visual.js'
 import News from './News.js'
 import Section from './Section.js'
 import Partners from './Partners.js'
-import React from 'react';
 import jquery from 'jquery';
 import $ from 'jquery';
 import './css/Visual.css';
@@ -18,6 +18,7 @@ import Footer from './Footer.js';
 import News_letter from './News_letter.js';
 import Corporation from './Corporation.js';
 import Careers2 from './Careers2.js'
+import NotFound from './NotFound'; // 404 페이지
 
 import Service from './Service.js';
 import AOS, { init } from "aos";
@@ -155,7 +156,6 @@ $('.banner_02').mouseout(function(e){
 
 
 $('.banner_03').mouseover(function(e){
-
   $('.banner_03 .brand_dim').show();
 })
 $('.banner_03').mouseout(function(e){
@@ -165,21 +165,21 @@ $('.banner_03').mouseout(function(e){
 })
   let navigate = useNavigate();//링크연결
   return (
-    <Routes>
-      <Route path="/" element={<Main  navigate={navigate}/>}>
-        <Route path="/" element={<Section/>}/>
-        <Route path="/visual" element={<Visual/>}/>      
-        <Route path="/news" element={<News/>}/>
-        <Route path="/Partners" element={<Partners/>}/>
-        <Route path="/choice" element={<Choice/>}/>
-        <Route path="/careers" element={<Careers/>}/>
-        <Route path="/corporation" element={<Corporation/>}/>
-        <Route path="/careers2" element={<Careers2/>}/>
-        <Route path="/news_letter" element={<News_letter/>}/>
-        <Route path="/service" element={<Service/>}/>       
-      </Route>
-     <Route path="*" element={<NotFound />} /> {/* NotFound 컴포넌트 사용 */}
-    </Routes>
+      <Routes>
+        <Route path="/" element={<Main  navigate={navigate}/>}>
+          <Route path="/" element={<Section/>}/>
+          <Route path="/visual" element={<Visual/>}/>      
+          <Route path="/news" element={<News/>}/>
+          <Route path="/Partners" element={<Partners/>}/>
+          <Route path="/choice" element={<Choice/>}/>
+          <Route path="/careers" element={<Careers/>}/>
+          <Route path="/corporation" element={<Corporation/>}/>
+          <Route path="/careers2" element={<Careers2/>}/>
+          <Route path="/news_letter" element={<News_letter/>}/>
+          <Route path="/service" element={<Service/>}/>    
+        </Route>
+        <Route path="*" element={<NotFound />} /> {/* NotFound 컴포넌트 사용 */}
+      </Routes>
   );
 };
 

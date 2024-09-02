@@ -1,3 +1,4 @@
+
 function Section_03(){
     return(
        <>
@@ -33,9 +34,8 @@ function Section_03(){
                   style={{width: "30px"}}/></div>
              </div>
 
-            <br/>
              <div class="brand_inner col-lg-6 banner_03" style={{marginTop:"20px!important"}}
-             onClick={()=>window.open('https:/yogico.kr/#/service','_blank')}>
+             onClick={()=>window.open('/service','_blank')}>
                 <div class="brand_dim"></div>
                 <div class="brand_img ">
                   <img src="https://yogibo.kr/yogico/img/banner/hrf_banner.jpg" alt="HRF배너"/>
