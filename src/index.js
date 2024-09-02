@@ -1,16 +1,17 @@
-import React, { useEffect } from 'react'; // useEffect 추가
+import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, useLocation } from 'react-router-dom'; // Router로 변경
+import { BrowserRouter, useLocation } from 'react-router-dom';
 import { Provider } from "react-redux";
 import store from './store.js';
 
-export default function ScrollToTop() {
+function ScrollToTop() {
   const { pathname } = useLocation();
 
   useEffect(() => {
+      console.log("Current path:", pathname); // 로그 추가
       window.scrollTo(0, 0);
   }, [pathname]);
 
@@ -19,12 +20,12 @@ export default function ScrollToTop() {
 
 ReactDOM.render(
   <React.StrictMode>
-    <Provider store={store}>
-      <BrowserRouter>
+   <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <Provider store={store}>
         <ScrollToTop />
         <App />
-      </BrowserRouter>
-    </Provider>
+      </Provider>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
