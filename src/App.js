@@ -178,6 +178,7 @@ $('.banner_03').mouseout(function(e){
         <Route path="/news_letter" element={<News_letter/>}/>
         <Route path="/service" element={<Service/>}/>       
       </Route>
+     <Route path="*" element={<NotFound />} /> {/* NotFound 컴포넌트 사용 */}
     </Routes>
   );
 };
